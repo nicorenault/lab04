@@ -25,11 +25,6 @@ class ManejadorInmuebles;
 class ControladorSistema : public IControladorSistema {
 private:
     static ControladorSistema* instancia;
-    ManejadorClientes* manCli;
-    ManejadorPropietarios* manProp;
-    ManejadorInmobiliarias* manInmo;
-    ManejadorInmuebles* manInmu;
-    ManejadorPublicaciones* manPub;
     ControladorSistema();
     Inmobiliaria* usuarioRecordado;
     Propietario* propietarioRecordado;
