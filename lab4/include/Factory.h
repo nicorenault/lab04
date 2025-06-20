@@ -7,8 +7,6 @@ class Factory {
     private:
         static Factory* instance;
         Factory();
-        IControladorSistema* ctrlSis;
-        IControladorFechaActual* ctrlFecha;
     public:
         static Factory* getInstance();
         IControladorFechaActual* getControladorFechaActual();
