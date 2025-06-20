@@ -15,7 +15,7 @@ class ControladorFechaActual : public IControladorFechaActual  {
         DTFecha* getFechaActual();
         void setNewFechaActual(int dia, int mes, int anio);
         void liberar();
-        ~ControladorFechaActual();
+        virtual ~ControladorFechaActual();
 };
 
 #endif
